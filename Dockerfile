@@ -1,4 +1,4 @@
-FROM maven:3-jdk-7
+FROM maven:3.5-jdk-8
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
